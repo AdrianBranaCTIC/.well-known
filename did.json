@@ -1,3 +1,10 @@
 {
-  "Hola": "Mundo"
+  "@context": ["https://www.w3.org/ns/did/v1"],
+  "id": "did:web:adrianbranactic.github.io",
+  "publicKey": [{
+    "id": "key-1",
+    "type": "Ed25519VerificationKey2018",
+    "controller": "did:web:adrianbranactic.github.io",
+    "publicKeyBase58": "5a2dd18d31eda13718490555e5e9c0cf92337feb534b634097f94cf90df31964"
+  }]
 }
